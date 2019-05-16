@@ -31,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'money', '~> 6.13.3'
-  spec.add_runtime_dependency 'offsite_payments', '2.7.11'
+  spec.add_runtime_dependency 'money', '> 6.11'
+  spec.add_runtime_dependency 'offsite_payments', '> 2.7'
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
